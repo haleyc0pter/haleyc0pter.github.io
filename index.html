@@ -1,46 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Haley Li</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haley Li</title>
 
-  <style>
-    body {
-      font-family: Helvetica, Arial, sans-serif;
-      max-width: 700px;
-      margin: 80px auto;
-      padding: 0 24px;
-      line-height: 1.6;
-      color: #222;
-      background: white;
-    }
+    <!-- Icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 
-    h1 {
-      margin-bottom: 0.25rem;
-    }
+    <style>
+        body {
+            font-family: Helvetica, Arial, sans-serif;
+            background: white;
+            color: #222;
+            margin: 0;
+        }
 
-    .subtitle {
-      color: #666;
-      margin-bottom: 2rem;
-    }
+        .container {
+            width: 700px;
+            margin-left: 240px;
+            margin-top: 200px;
+        }
 
-    a {
-      color: #000;
-    }
-  </style>
+        h1 {
+            font-size: 64px;
+            margin: 0;
+            font-weight: 700;
+        }
+
+        .subtitle {
+            font-size: 20px;
+            color: #666;
+            margin-top: 22px;
+            margin-bottom: 40px;
+        }
+
+        .icons {
+            display: flex;
+            gap: 28px;
+            align-items: center;
+        }
+
+        .icons a {
+            color: #111;
+            font-size: 44px;
+            transition: opacity 0.15s ease;
+        }
+
+        .icons a:hover {
+            opacity: 0.6;
+        }
+    </style>
 </head>
 <body>
 
-  <h1>Haley Li</h1>
+<div class="container">
 
-  <p class="subtitle">
-    CS & Physics at UChicago.
-  </p>
+    <h1>Haley Li</h1>
 
-  <p>
-    <a href="https://github.com/haleyc0pter">GitHub</a>
-  </p>
+    <p class="subtitle">
+        CS &amp; Physics at UChicago.
+    </p>
+
+    <div class="icons">
+
+        <!-- GitHub -->
+        <a href="https://github.com/haleyc0pter" target="_blank">
+            <i class="fa-brands fa-github"></i>
+        </a>
+
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/in/haley0/" target="_blank">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+
+        <!-- Email -->
+        <a href="mailto:haleyli1234@gmail.com">
+            <i class="fa-regular fa-envelope"></i>
+        </a>
+
+    </div>
+
+</div>
 
 </body>
 </html>
