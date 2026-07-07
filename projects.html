@@ -4,10 +4,53 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <link rel="icon" type="image/png" href="favicon.png">
-  <title>Projects</title>
-  <style>body{font-family:Helvetica, Arial, sans-serif;margin:0;display:flex;align-items:center;justify-content:center;height:100vh}</style>
+  <title>About</title>
+
+  <!-- match index nav icon style -->
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <style>
+    body{font-family:Helvetica, Arial, sans-serif;margin:0;display:flex;align-items:center;justify-content:center;height:100vh}
+    .back {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+
+      /* match nav button style */
+      background: transparent;
+      border: none;
+      color: #111;
+      font-size: 20px;
+      padding: 8px;
+      border-radius: 6px;
+      cursor: pointer;
+
+      /* same sizing as nav */
+      width: 40px;
+      height: 40px;
+
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+
+      transition: background 0.15s ease;
+      text-decoration: none;
+    }
+    .back:hover { background: rgba(0,0,0,0.05); }
+
+    /* make the arrow visually thicker like the nav icon */
+    .back i {
+      font-size: 18px;
+      line-height: 1;
+    }
+  </style>
 </head>
 <body>
+  <a href="index.html" class="back" aria-label="Back to home" title="Back to home">
+    <i class="fa-solid fa-arrow-left" aria-hidden="true"></i>
+  </a>
+
   Under construction.
 </body>
 </html>
